@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Forms</title>
+</head>
+<body>
+	<form method="get" action="">
+		<label for="first-name">Name</label>
+		<input type="text" name="first-name" 
+				placeholder="Name" id="first-name" required>
+
+
+		<label>
+			Surname
+			<input type="text" name="second-name" placeholder="SurName" required>
+		</label>	
+
+		<label>
+			Email
+			<input type="email" name="email" required>
+		</label>
+
+		<label>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id molestiae ex, odio perspiciatis deserunt. Voluptatem voluptas alias officiis velit neque eaque porro, expedita aspernatur ab provident sapiente reprehenderit cupiditate nesciunt!
+			<input type="checkbox" name="rules" checked="folse">
+		</label>
+
+		<label>
+			Male
+			<input type="radio" name="sex" value="male">
+		</label>
+		<label>
+			Female
+			<input type="radio" name="sex" value="female">
+		</label>
+
+		<select name="role" disabled>
+			<option value="Capitan">Capitan</option>
+			<option value="IronMan">IronMan</option>
+		</select>
+
+		<button type="button" >Button</button>
+		<button type="reset">Reset</button>
+		<button type="submit" disabled>Submit</button>
+		
+		<input type="number" name="" value="100" readonly>
+
+		<textarea name="" id="" cols="30" rows="10"></textarea>
+	</form>
+
+</body>
+</html>
